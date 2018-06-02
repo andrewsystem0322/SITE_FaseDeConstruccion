@@ -1,0 +1,185 @@
+header {
+    background: #fff;
+    border-top: 25px solid #004669;
+    box-shadow: 0 8px 15px #004669;
+    color: #004669;
+}
+header .logo {
+  display: inline-block;
+  height: 60px;
+  margin: 0;
+  padding: 0 1.8rem 0 0;
+  width: 110px;
+}
+header .logohome {
+  display: inline-block;
+  height: 15px;
+  margin: 0;
+  padding: 0 1.8rem 0 0;
+  width: 30px;
+  margin-bottom: 50px;
+}
+header .responsive-menu {
+  cursor: pointer;
+  display: inline-block;
+  margin: auto 0 auto auto;
+}
+header .menu {
+  display: none;
+  width: 90%;
+  font-family: sans-serif;
+}
+header .menu li {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  position: relative;
+}
+header .menu li a {
+  color: #004669;
+  display: flex;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+}
+header .menu li a .plus-icon {
+  margin-left: auto;
+  padding: 0 0.2rem;
+}
+header .menu li .submenu {
+  background: #ffffff;
+  display: none;
+  margin: 0;
+  min-width: 160px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  font-family: sans-serif;
+}
+header .menu li .submenu li {
+  display: block;
+}
+header .menu li .submenu li:hover {
+  background:  #F4B945;
+}
+header .menu li .submenu li a {
+  padding: 0.6rem 0.5rem;
+  text-transform: none;
+}
+header .menu li .submenu .search {
+  padding: 0.3rem 0.5rem 0.6rem;
+}
+header .menu li .submenu .search:hover {
+  background: none;
+}
+header .menu li .submenu .search [type=text] {
+  height: 1.7rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  header .menu {
+    display: flex;
+  }
+  header .menu li a {
+    padding: 2.4rem 1.2rem 0.5rem;
+  }
+  header .menu li a:after {
+    content: '/';
+    padding: 0 0 0 2.5rem;
+  }
+  header .menu li .submenu {
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: auto;
+  }
+  header .menu li .submenu li a:after {
+    content: '';
+    padding: 0;
+  }
+  header .menu li:hover ul {
+    display: block;
+  }
+  header .menu li:nth-child(3) a:after {
+    content: '';
+    padding: 0;
+  }
+  header .menu li:last-child {
+    margin-left: auto;
+  }
+  header .menu li:last-child a:after {
+    content: '';
+    padding: 0;
+  }
+}
+/* Large and up */
+/* Foundation Overrides */
+.grid-container {
+  max-width: 60em;
+}
+
+.caja {
+
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+color: #004669;
+
+font-size: 18px;
+
+font-weight: 400;
+
+text-align: center;
+
+background: #ffffff;
+
+margin: 0 0 25px;
+
+overflow: hidden;
+
+padding: 20px;
+
+border-radius: 35px 0px 35px 0px;
+
+-moz-border-radius: 35px 0px 35px 0px;
+
+-webkit-border-radius: 35px 0px 35px 0px;
+
+border: 5px solid #F4B945;
+
+box-shadow: 0 8px 15px #004669;
+
+}
+
+.cajat {
+
+font-family: sans-serif;
+
+font-size: 18px;
+
+font-weight: 400;
+
+color: #004669;
+
+background: #f4b9457a;
+
+margin: 0 0 25px;
+
+overflow: hidden;
+
+padding: 20px;
+
+border: 5px solid #F4B945;
+
+}
+
+footer {
+    background: #fff;
+}
+footer .logo {
+  display: inline-block;
+  height: 60px;
+  margin: 0;
+  padding: 0 1.8rem 0 0;
+  width: 110px;
+}
